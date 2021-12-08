@@ -1,8 +1,8 @@
 <?php
 
-namespace Everest\PDFCompress;
+namespace Webron\PdfCompress;
 
-class PDFCompress
+class PdfCompress
 {
 	protected $files = [];
 
