@@ -14,7 +14,6 @@
             "homepage": "https://github.com/peronh"
         }
     ],
-    "minimum-stability": "dev",
     "homepage" : "https://github.com/peronh/pdf-compress",
     "autoload": {
         "psr-4": {
