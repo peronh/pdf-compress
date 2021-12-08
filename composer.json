@@ -1,6 +1,6 @@
 
 {
-    "name": "peronh/PdfCompress",
+    "name": "peronh/pdf-compress",
     "description": "",
     "keywords": ["compress","pdf","resize","minify"],
     "require": {
@@ -15,7 +15,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "homepage" : "https://github.com/peronh/PdfCompress",
+    "homepage" : "https://github.com/peronh/pdf-compress",
     "autoload": {
         "psr-4": {
             "Webron\\PdfCompress\\": "src/"
