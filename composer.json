@@ -17,7 +17,7 @@
     "minimum-stability": "dev",
     "homepage" : "https://github.com/mabbly/lara-pdf-merger",
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Webron\\PdfCompress": "src/"
         }
     },
