@@ -18,7 +18,7 @@
     "homepage" : "https://github.com/peronh/PdfCompress",
     "autoload": {
         "psr-4": {
-            "Webron\\PdfCompress": "src/"
+            "Webron\\PdfCompress\\": "src/"
         }
     },
 }
