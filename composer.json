@@ -1,1 +1,24 @@
 
+{
+    "name": "peronh/PdfCompress",
+    "description": "",
+    "keywords": ["compress","pdf","resize","minify"],
+    "require": {
+        "php" : ">=5.4"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Webron",
+            "email": "info@webron.hu",
+            "homepage": "https://github.com/peronh"
+        }
+    ],
+    "minimum-stability": "dev",
+    "homepage" : "https://github.com/mabbly/lara-pdf-merger",
+    "autoload": {
+        "psr-0": {
+            "Webron\\PdfCompress": "src/"
+        }
+    },
+}
