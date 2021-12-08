@@ -30,7 +30,7 @@ class PdfCompress
 		}
 
 		$results = shell_exec($cmd);
-		return ("PDF files successfully merged.");
+		return ("PDF files successfully compress.");
 		exit();
 
 	}
