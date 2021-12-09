@@ -1,4 +1,4 @@
 # PdfCompress
 
 #Install
-     composer require peronh/pdf-comprees
+    - composer require peronh/pdf-compress
