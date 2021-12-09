@@ -18,7 +18,7 @@ use Peronh\PDFCompress\PDFCompress;
 
 $pdf = new PDFCompress();
 $pdf->AddFile('path/to/source_pdf_file.pdf');
-$pdf->CompressFile($obj->getFilePath('path/to/dest_pdf_file.pdf', 'default_ebook');
+$pdf->CompressFile('path/to/dest_pdf_file.pdf', 'default_ebook');
 
 ```
 ## Additional option 
