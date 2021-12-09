@@ -3,7 +3,8 @@
     "type": "library",
     "keywords": ["compress","pdf","resize","minify"],
     "require": {
-        "php" : ">=5.4"
+        "php" : ">=5.4",
+        "vendor/package": "^2.0.3"
     },
     "license": "MIT",
     "autoload": {
