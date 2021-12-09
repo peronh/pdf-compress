@@ -1,23 +1,23 @@
-
 {
     "name": "peronh/pdf-compress",
-    "description": "",
+    "type": "library",
     "keywords": ["compress","pdf","resize","minify"],
     "require": {
         "php" : ">=5.4"
     },
-    "license": "mit",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Peronh\\PdfCompress\\": "src/"
+        }
+    },
     "authors": [
         {
-            "name": "Webron",
+            "name": "webron",
             "email": "info@webron.hu",
             "homepage": "https://github.com/peronh"
         }
     ],
     "homepage" : "https://github.com/peronh/pdf-compress",
-    "autoload": {
-        "psr-0": {
-            "Webron\\PdfCompress\\": "src/"
-        }
-    }
+    "minimum-stability": "dev"
 }

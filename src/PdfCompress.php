@@ -1,6 +1,6 @@
 <?php
 
-namespace Webron\PdfCompress;
+namespace Peronh\PdfCompress;
 
 class PdfCompress
 {
@@ -12,7 +12,7 @@ class PdfCompress
 		}
 	}
 
-	public function CompressFile($dest_pdf_file = ""){
+	public function CompressFile($dest_pdf_file = "", $settings = 'ebook'){
 		if( $dest_pdf_file == "" ){
 			return ("Invalid output destination.");
 			exit();
@@ -22,7 +22,7 @@ class PdfCompress
 			return ("No PDF files to be compress.");
 			exit();
 		}
-		$cmd = 'gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile='.$dest_pdf_file. ' '.$dest_pdf_file.' ';
+		$cmd = 'gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/'.$settings.' -dNOPAUSE -dQUIET -dBATCH -sOutputFile='.$dest_pdf_file. ' '.$dest_pdf_file.' ';
 		foreach ($this->files as $file) {
 			if( file_exists($file) || $file !== "" ){
 				$cmd .= $file." ";
